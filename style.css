@@ -1,0 +1,127 @@
+body{
+    font-family: 'Form', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: #030303;
+    color: white;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;    
+  list-style: none;   
+  margin: 0;           
+  padding: 0;
+  gap: 30px; 
+  margin-left: 800px;          
+}
+
+nav ul li {
+  font-size: 16px;     
+}
+
+nav ul li a {
+  color: white;        
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.Welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 0;
+    background-color: #030303;
+    color: white;
+}
+
+#Welcome{
+    position: relative;
+    z-index: 2;
+}
+.Welcome h1{
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.Welcome p{
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+
+.Welcome img{
+    width: 1000px;
+    position: relative;
+    left: -150px;
+    z-index: 1;
+}
+
+.img_c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #030303;
+    width: 600px;
+    height: 120px;
+    padding: 40px 74px;
+    position: relative;
+    z-index: 2;
+    top: -60px;
+    right: -105px;
+}
+
+.sqr{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+}
+.Welcome button{
+    font-size: 24px;
+    color: white;
+    background-color: #710707;
+    border-radius: 10px;
+    height: 75px;
+    width: 360px;
+    border: none;
+    cursor: pointer;
+}
+
+.Visiting{
+    background-color: white;
+    
+}
+
+.hrs{
+    width: 1440px;
+    color: #710707;
+    border-top: 3px solid;
+}
+
+.Explore{
+    background-color: #030303;
+    color: white;
+    display: flex;
+}
+
+.Gallery{
+    background-color: #030303;
+    color: white;
+}
+
+footer{
+    background-color: #030303;
+    color: white;
+}
